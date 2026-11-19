@@ -1,7 +1,80 @@
-<button onclick="showMessage()">Click Me ❤️</button>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Deepawali</title>
 
-<script>
-function showMessage() {
-  alert("Welcome to my beautiful website! 💖");
-}
-</script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff512f, #dd2476);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            padding: 50px 15px;
+        }
+
+        .card {
+            background: #fff3cd;
+            color: #8b2500;
+            padding: 35px 20px;
+            border-radius: 20px;
+            max-width: 500px;
+            margin: 50px auto;
+            box-shadow: 0 0 25px gold;
+        }
+
+        h1 {
+            color: #d62828;
+            font-size: 38px;
+        }
+
+        .diya {
+            font-size: 65px;
+            animation: glow 1s infinite alternate;
+        }
+
+        @keyframes glow {
+            from { transform: scale(1); }
+            to { transform: scale(1.15); }
+        }
+
+        button {
+            background: #d62828;
+            color: white;
+            border: none;
+            padding: 14px 25px;
+            border-radius: 10px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="diya">🪔</div>
+
+        <h1>Happy Deepawali! 🎆</h1>
+
+        <h2>✨ Festival of Lights ✨</h2>
+
+        <p>
+            May your life be filled with happiness,
+            love, prosperity and success.
+        </p>
+
+        <h2>🪔 शुभ दीपावली 🪔</h2>
+
+        <button onclick="showWish()">
+            Click for Surprise ❤️
+        </button>
+    </div>
+
+    <script>
+        function showWish() {
+            alert("Wishing you and your family a very Happy Deepawali! 🪔❤️🎆");
+        }
+    </script>
+
+</body>
+</html>
